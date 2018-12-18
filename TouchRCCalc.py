@@ -20,7 +20,7 @@ def rctousd():
 def usdtorc():
 	print('=' * 5, 'USD to RC', '=' * 5, '\n')
 	try:
-		playerus = input('How much U$ do you want to convert to RC..: ')
+		playerus = int(input('How much U$ do you want to convert to RC..: '))
 	except ValueError:
 		print('\nPlease, use only numbers. \n\nRestarting USD to RC')
 		sleep(2.0)
